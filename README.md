@@ -1,9 +1,35 @@
-# 🇻🇳 Awesome made by Vietnameses
+# 🇻🇳 Awesome made by Vietnameses [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 A collection of amazing applications or open source projects built by Vietnamese developers
 
+- [Vietnamese Input](#vietnamese_input)
 - [Apps](#apps)
+- [HTML - CSS](#css)
 - [JavaScript](#js)
-- [VueJS](#vue)
+
+<a name="vietnamese_input"></a>
+### Vietnamese Input
+
+- [EVKey](https://evkeyvn.com) - Lam Quang Minh
+
+    Vietnamese keyboard for Windows / MacOS X
+
+- [GoTiengViet](https://www.trankynam.com/gotv) - Tran Ky Nam
+
+    Giúp bạn gõ tiếng Việt thuận tiện, chính xác, và nhanh nhất
+
+- [NAKL](https://github.com/huyphan/NAKL) - [huyphan](https://github.com/huyphan)
+
+    A Vietnamese input keyboard for Mac OS
+    ![Stars](https://img.shields.io/github/stars/huyphan/NAKL?style=flat-square)
+
+- [OpenKey](https://github.com/tuyenvm/OpenKey) - [tuyenvm](https://github.com/tuyenvm)
+
+    Vietnamese Input for macOS, Windows and Linux
+    ![Stars](https://img.shields.io/github/stars/tuyenvm/OpenKey?style=flat-square)
+
+- [UniKey](https://unikey.org) - Pham Kim Long
+
+    UniKey is the most popular Vietnamese keyboard for Windows. The core UniKey Vietnamese Input Method is also the engine for many Vietnamese keyboards in Linux, macOS and iOS.
 
 <a name="apps"></a>
 ### Apps
@@ -18,12 +44,26 @@ A collection of amazing applications or open source projects built by Vietnamese
     TablePlus is a native app which helps you easily edit database data and structure
     ![Stars](https://img.shields.io/github/stars/TablePlus/TablePlus?style=flat-square)
 
-- [UniKey](https://unikey.org) - Pham Kim Long
+<a name="css"></a>
+### HTML - CSS
 
-    UniKey is the most popular Vietnamese keyboard for Windows. The core UniKey Vietnamese Input Method is also the engine for many Vietnamese keyboards in Linux, macOS and iOS.
+- [HTML DOM](https://github.com/phuoc-ng/html-dom) - [phuoc-ng](https://github.com/phuoc-ng)
+
+    Common tasks of managing HTML DOM with vanilla JavaScript. Give me 1 ⭐if it’s useful.
+    ![Stars](https://img.shields.io/github/stars/phuoc-ng/html-dom.svg?style=flat-square)
+
+- [CSS Layout](https://github.com/phuoc-ng/csslayout) - [phuoc-ng](https://github.com/phuoc-ng)
+
+    A collection of popular layouts and patterns made with CSS. Now it has 90+ patterns and continues growing!
+    ![Stars](https://img.shields.io/github/stars/phuoc-ng/csslayout.svg?style=flat-square)
 
 <a name="js"></a>
 ### JavaScript
+
+- [1 LOC](https://github.com/phuoc-ng/1loc) - [phuoc-ng](https://github.com/phuoc-ng)
+
+    Favorite JavaScript utilities in single line of code
+    ![Stars](https://img.shields.io/github/stars/phuoc-ng/1loc.svg?style=flat-square)
 
 - [camaro](https://github.com/tuananh/camaro) - [tuananh](https://github.com/tuananh)
 
@@ -35,19 +75,15 @@ A collection of amazing applications or open source projects built by Vietnamese
     The best @jquery plugin to validate form fields.
     ![Stars](https://img.shields.io/github/stars/formvalidation/formvalidation.svg?style=flat-square)
 
-- [Octotree](https://github.com/ovity/octotree) - [buunguyen](https://github.com/buunguyen)
-
-    GitHub on steroids
-    ![Stars](https://img.shields.io/github/stars/ovity/octotree.svg?style=flat-square)
-
-
-<a name="vue"></a>
-### VueJS
-
 - [Laravue](https://github.com/tuandm/laravue) - [tuandm](https://github.com/tuandm)
 
     Admin dashboard for enterprise Laravel applications built by VueJS and Element UI 
     ![Stars](https://img.shields.io/github/stars/tuandm/laravue.svg?style=flat-square)
+
+- [Octotree](https://github.com/ovity/octotree) - [buunguyen](https://github.com/buunguyen)
+
+    GitHub on steroids
+    ![Stars](https://img.shields.io/github/stars/ovity/octotree.svg?style=flat-square)
 
 ## 🏗 Contributing
 
