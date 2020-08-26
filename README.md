@@ -3,8 +3,10 @@ A collection of amazing applications or open source projects built by Vietnamese
 
 - [Vietnamese Input](#vietnamese_input)
 - [Apps](#apps)
+- [C](#c)
 - [HTML - CSS](#css)
 - [JavaScript](#js)
+- [PHP](#php)
 
 <a name="vietnamese_input"></a>
 ### Vietnamese Input
@@ -34,6 +36,11 @@ A collection of amazing applications or open source projects built by Vietnamese
 <a name="apps"></a>
 ### Apps
 
+- [Manta](https://github.com/hql287/Manta) - [hql287](https://github.com/hql287)
+
+    🎉 Flexible invoicing desktop app with beautiful & customizable templates.
+    ![Stars](https://img.shields.io/github/stars/hql287/Manta.svg?style=flat-square)
+
 - [Proxyman](https://github.com/ProxymanApp/Proxyman) - [NghiaTranUIT](https://github.com/NghiaTranUIT)
 
     Modern and Delightful HTTP Debugging Proxy for macOS, iOS and Android
@@ -43,6 +50,14 @@ A collection of amazing applications or open source projects built by Vietnamese
 
     TablePlus is a native app which helps you easily edit database data and structure
     ![Stars](https://img.shields.io/github/stars/TablePlus/TablePlus?style=flat-square)
+
+<a name="c"></a>
+### C
+
+- [Capstone Engine](https://github.com/aquynh/capstone) - [aquynh](https://github.com/aquynh)
+
+    Capstone disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, RISCV, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86_64, XCore) + bindings.
+    ![Stars](https://img.shields.io/github/stars/aquynh/capstone.svg?style=flat-square)
 
 <a name="css"></a>
 ### HTML - CSS
@@ -80,10 +95,23 @@ A collection of amazing applications or open source projects built by Vietnamese
     Admin dashboard for enterprise Laravel applications built by VueJS and Element UI 
     ![Stars](https://img.shields.io/github/stars/tuandm/laravue.svg?style=flat-square)
 
+- [mongoose-deep-populate](https://github.com/buunguyen/mongoose-deep-populate) - [buunguyen](https://github.com/buunguyen)
+
+    Mongoose plugin to enable deep population of nested models ⛺
+    ![Stars](https://img.shields.io/github/stars/buunguyen/mongoose-deep-populate.svg?style=flat-square)
+
 - [Octotree](https://github.com/ovity/octotree) - [buunguyen](https://github.com/buunguyen)
 
-    GitHub on steroids
+    Browser extension (Chrome, Firefox, Edge, Opera, Safari) that improves GitHub code review and exploration.
     ![Stars](https://img.shields.io/github/stars/ovity/octotree.svg?style=flat-square)
+
+<a name="php"></a>
+### PHP
+
+- [Koel](https://github.com/koel/koel) - [phanan](https://github.com/phanan)
+
+    🐦 A personal music streaming server that works.
+    ![Stars](https://img.shields.io/github/stars/koel/koel?style=flat-square)
 
 ## 🏗 Contributing
 
