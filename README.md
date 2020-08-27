@@ -7,6 +7,9 @@ A collection of amazing applications or open source projects built by Vietnamese
 - [HTML - CSS](#css)
 - [JavaScript](#js)
 - [PHP](#php)
+- [Ruby](#ruby)
+- [Shell](#sh)
+- [Swift](#swift)
 
 <a name="vietnamese_input"></a>
 ### Vietnamese Input
@@ -36,6 +39,16 @@ A collection of amazing applications or open source projects built by Vietnamese
 <a name="apps"></a>
 ### Apps
 
+- [DeepDiff](https://github.com/onmyway133/DeepDiff) - [onmyway133](https://github.com/onmyway133)
+
+    🦀Amazingly incredible extraordinary lightning fast diffing in Swift
+    ![Stars](https://img.shields.io/github/stars/onmyway133/DeepDiff.svg?style=flat-square)
+
+- [Icon Generator](https://github.com/onmyway133/IconGenerator) - [onmyway133](https://github.com/onmyway133)
+
+    🍱 A macOS app to generate app icons
+    ![Stars](https://img.shields.io/github/stars/onmyway133/IconGenerator.svg?style=flat-square)
+
 - [Manta](https://github.com/hql287/Manta) - [hql287](https://github.com/hql287)
 
     🎉 Flexible invoicing desktop app with beautiful & customizable templates.
@@ -45,6 +58,11 @@ A collection of amazing applications or open source projects built by Vietnamese
 
     Modern and Delightful HTTP Debugging Proxy for macOS, iOS and Android
     ![Stars](https://img.shields.io/github/stars/ProxymanApp/Proxyman.svg?style=flat-square)
+
+- [Push Notifications](https://github.com/onmyway133/PushNotifications) - [onmyway133](https://github.com/onmyway133)
+
+    🐉 A macOS, Linux, Windows app to test push notifications on iOS and Android
+    ![Stars](https://img.shields.io/github/stars/onmyway133/PushNotifications.svg?style=flat-square)
 
 - [TablePlus](https://github.com/TablePlus/TablePlus) - [huyphams](https://github.com/huyphams)
 
@@ -112,6 +130,30 @@ A collection of amazing applications or open source projects built by Vietnamese
 
     🐦 A personal music streaming server that works.
     ![Stars](https://img.shields.io/github/stars/koel/koel?style=flat-square)
+
+<a name="ruby"></a>
+### Ruby
+
+- [Ruby Jard](https://github.com/nguyenquangminh0711/ruby_jard) - [nguyenquangminh0711](https://github.com/nguyenquangminh0711)
+
+    Just another ruby debugger. Provide a better experience while debugging Ruby
+    ![Stars](https://img.shields.io/github/stars/nguyenquangminh0711/ruby_jard?style=flat-square)
+
+<a name="sh"></a>
+### Shell
+
+- [pacapt](https://github.com/icy/pacapt) - [icy](https://github.com/icy)
+
+    An ArchLinux's pacman-like wrapper for many package managers
+    ![Stars](https://img.shields.io/github/stars/icy/pacapt?style=flat-square)
+
+<a name="swift"></a>
+### Swift
+
+- [DateTimePicker](https://github.com/itsmeichigo/DateTimePicker) - [itsmeichigo](https://github.com/itsmeichigo)
+
+    A nicer iOS UI component for picking date and time
+    ![Stars](https://img.shields.io/github/stars/itsmeichigo/DateTimePicker?style=flat-square)
 
 ## 🏗 Contributing
 
