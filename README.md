@@ -5,11 +5,13 @@ A collection of amazing applications or open source projects built by Vietnamese
 - [Apps](#apps)
 - [C](#c)
 - [HTML - CSS](#css)
+- [Java](#java)
 - [JavaScript](#js)
 - [PHP](#php)
 - [Ruby](#ruby)
 - [Shell](#sh)
 - [Swift](#swift)
+- [Others](#others)
 
 <a name="vietnamese_input"></a>
 ### Vietnamese Input
@@ -90,6 +92,19 @@ A collection of amazing applications or open source projects built by Vietnamese
     A collection of popular layouts and patterns made with CSS. Now it has 90+ patterns and continues growing!
     ![Stars](https://img.shields.io/github/stars/phuoc-ng/csslayout.svg?style=flat-square)
 
+<a name="java"></a>
+### Java
+
+- [Vietnamese Analysis Plugin for Elasticsearch](https://github.com/duydo/elasticsearch-analysis-vietnamese) - [Duy Do](https://github.com/duydo)
+
+    Vietnamese Analysis Plugin for Elasticsearch
+    ![Stars](https://img.shields.io/github/stars/duydo/elasticsearch-analysis-vietnamese?style=flat-square)
+
+- [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP) - [Vietnamese CoreNLP](https://github.com/vncorenlp)
+
+    A Vietnamese natural language processing toolkit (NAACL 2018)
+    ![Stars](https://img.shields.io/github/stars/vncorenlp/VnCoreNLP?style=flat-square)
+
 <a name="js"></a>
 ### JavaScript
 
@@ -102,6 +117,11 @@ A collection of amazing applications or open source projects built by Vietnamese
 
     camaro is an utility to transform XML to JSON, using Node.js binding to native XML parser pugixml, one of the fastest XML parser around.
     ![Stars](https://img.shields.io/github/stars/tuananh/camaro.svg?style=flat-square)
+
+- [DBML - Database Markup Language](https://github.com/holistics/dbml) - [Holistics](https://github.com/holistics) ([Huy Nguyen](https://github.com/nvquanghuy))
+
+    Database Markup Language (DBML), designed to define and document database structures
+    ![Stars](https://img.shields.io/github/stars/holistics/dbml?style=flat-square)
 
 - [FormValidation](https://github.com/formvalidation/formvalidation) - [Phuoc Nguyen](https://github.com/nghuuphuoc)
 
@@ -154,6 +174,14 @@ A collection of amazing applications or open source projects built by Vietnamese
 
     A nicer iOS UI component for picking date and time
     ![Stars](https://img.shields.io/github/stars/itsmeichigo/DateTimePicker?style=flat-square)
+
+<a name="others"></a>
+### Others
+
+- [hostsVN](https://github.com/bigdargon/hostsVN) - [BigDargon](https://github.com/bigdargon)
+
+    Hosts block ads of Vietnamese
+    ![Stars](https://img.shields.io/github/stars/bigdargon/hostVN?style=flat-square)
 
 ## 🏗 Contributing
 
