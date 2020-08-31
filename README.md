@@ -181,7 +181,7 @@ A collection of amazing applications or open source projects built by Vietnamese
 - [hostsVN](https://github.com/bigdargon/hostsVN) - [BigDargon](https://github.com/bigdargon)
 
     Hosts block ads of Vietnamese
-    ![Stars](https://img.shields.io/github/stars/bigdargon/hostVN?style=flat-square)
+    ![Stars](https://img.shields.io/github/stars/bigdargon/hostsVN?style=flat-square)
 
 ## 🏗 Contributing
 
