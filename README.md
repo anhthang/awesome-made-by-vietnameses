@@ -28,9 +28,10 @@ A collection of amazing applications or open source projects built by Vietnamese
 
     Giúp bạn gõ tiếng Việt thuận tiện, chính xác, và nhanh nhất
 
-- [Music Pro](https://www.amazingmusicpro.com) - [Long Nguyen](https://twitter.com/truonglong88)
+- [IBus Bamboo](https://github.com/BambooEngine/ibus-bamboo) - [BambooEngine](https://github.com/BambooEngine)
 
-    The elegant and beautiful player that streams music in the background without limits.
+    Bộ gõ tiếng Việt cho Linux
+    ![Stars](https://img.shields.io/github/stars/BambooEngine/ibus-bamboo.svg?style=flat-square)
 
 - [NAKL](https://github.com/huyphan/NAKL) - [Huy Phan](https://github.com/huyphan)
 
@@ -63,6 +64,10 @@ A collection of amazing applications or open source projects built by Vietnamese
 
     🎉 Flexible invoicing desktop app with beautiful & customizable templates.
     ![Stars](https://img.shields.io/github/stars/hql287/Manta.svg?style=flat-square)
+
+- [Music Pro](https://www.amazingmusicpro.com) - [Long Nguyen](https://twitter.com/truonglong88)
+
+    The elegant and beautiful player that streams music in the background without limits.
 
 - [Proxyman](https://github.com/ProxymanApp/Proxyman) - [Nghia Tran](https://github.com/NghiaTranUIT)
 
@@ -213,6 +218,11 @@ A collection of amazing applications or open source projects built by Vietnamese
 
     Hosts block ads of Vietnamese
     ![Stars](https://img.shields.io/github/stars/bigdargon/hostsVN?style=flat-square)
+
+- [.htaccess Snippets](https://github.com/phanan/htaccess) - [Phan An](https://github.com/phanan)
+
+    ✂A collection of useful .htaccess snippets.
+    ![Stars](https://img.shields.io/github/stars/phanan/htaccess.svg?style=flat-square)
 
 ## 🏗 Contributing
 
