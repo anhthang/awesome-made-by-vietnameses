@@ -1,9 +1,13 @@
-# 🇻🇳 Awesome made by Vietnameses [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 🇻🇳 Awesome made by Vietnameses [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![By Vietnamese](https://raw.githubusercontent.com/webuild-community/badge/master/svg/by.svg)](https://webuild.community)
+[![From Vietnam with <3](https://raw.githubusercontent.com/webuild-community/badge/master/svg/love.svg)](https://webuild.community)
+
+
 A collection of amazing applications or open source projects built by Vietnamese developers
 
 - [Vietnamese Input](#vietnamese_input)
 - [Apps](#apps)
 - [C](#c)
+- [Go](#go)
 - [HTML - CSS](#css)
 - [Java](#java)
 - [JavaScript](#js)
@@ -23,6 +27,10 @@ A collection of amazing applications or open source projects built by Vietnamese
 - [GoTiengViet](https://www.trankynam.com/gotv) - Tran Ky Nam
 
     Giúp bạn gõ tiếng Việt thuận tiện, chính xác, và nhanh nhất
+
+- [Music Pro](https://www.amazingmusicpro.com) - [Long Nguyen](https://twitter.com/truonglong88)
+
+    The elegant and beautiful player that streams music in the background without limits.
 
 - [NAKL](https://github.com/huyphan/NAKL) - [Huy Phan](https://github.com/huyphan)
 
@@ -79,8 +87,26 @@ A collection of amazing applications or open source projects built by Vietnamese
     Capstone disassembly/disassembler framework: Core (Arm, Arm64, BPF, EVM, M68K, M680X, MOS65xx, Mips, PPC, RISCV, Sparc, SystemZ, TMS320C64x, Web Assembly, X86, X86_64, XCore) + bindings.
     ![Stars](https://img.shields.io/github/stars/aquynh/capstone.svg?style=flat-square)
 
+- [esp_mqtt](https://github.com/tuanpmt/esp_mqtt) - [Tuan](https://github.com/tuanpmt)
+
+    MQTT client library for ESP8266
+    ![Stars](https://img.shields.io/github/stars/tuanpmt/esp_mqtt.svg?style=flat-square)
+
+<a name="go"></a>
+### Go
+
+- [CloudRetro](https://github.com/giongto35/cloud-game) - [Thanh Nguyen Huu](https://github.com/giongto35)
+
+    Web-based Cloud Gaming service for Retro Game
+    ![Stars](https://img.shields.io/github/stars/giongto35/cloud-game.svg?style=flat-square)
+
 <a name="css"></a>
 ### HTML - CSS
+
+- [Freewall](https://github.com/kombai/freewall) - [Minh Nguyen](https://github.com/kombai)
+
+    Freewall is a cross-browser and responsive jQuery plugin to help you create grid, image and masonry layouts for desktop, mobile, and tablet...
+    ![Stars](https://img.shields.io/github/stars/kombai/freewall.svg?style=flat-square)
 
 - [HTML DOM](https://github.com/phuoc-ng/html-dom) - [Phuoc Nguyen](https://github.com/phuoc-ng)
 
@@ -94,6 +120,11 @@ A collection of amazing applications or open source projects built by Vietnamese
 
 <a name="java"></a>
 ### Java
+
+- [Emojicon](https://github.com/rockerhieu/emojicon) - [Hieu Rocker](https://github.com/rockerhieu)
+
+    A library to show emoji in TextView, EditText (like WhatsApp) for Android
+    ![Stars](https://img.shields.io/github/stars/rockerhieu/emojicon.svg?style=flat-square)
 
 - [Vietnamese Analysis Plugin for Elasticsearch](https://github.com/duydo/elasticsearch-analysis-vietnamese) - [Duy Do](https://github.com/duydo)
 
