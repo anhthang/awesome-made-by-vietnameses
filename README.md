@@ -11,7 +11,9 @@ A collection of amazing applications or open source projects built by Vietnamese
 - [HTML - CSS](#css)
 - [Java](#java)
 - [JavaScript](#js)
+- [Jupyter Notebook](#jupyter)
 - [PHP](#php)
+- [Python](#python)
 - [Ruby](#ruby)
 - [Shell](#sh)
 - [Swift](#swift)
@@ -179,6 +181,14 @@ A collection of amazing applications or open source projects built by Vietnamese
     Browser extension (Chrome, Firefox, Edge, Opera, Safari) that improves GitHub code review and exploration.
     ![Stars](https://img.shields.io/github/stars/ovity/octotree.svg?style=flat-square)
 
+<a name="jupyter"></a>
+### Jupyter Notebook
+
+- [python-is-cool](https://github.com/chiphuyen/python-is-cool) - [Chip Huyen](https://github.com/chiphuyen)
+
+    Cool Python features for machine learning that I used to be too afraid to use. Will be updated as I have more time / learn more.
+    ![Stars](https://img.shields.io/github/stars/chiphuyen/python-is-cool.svg?style=flat-square)
+
 <a name="php"></a>
 ### PHP
 
@@ -186,6 +196,24 @@ A collection of amazing applications or open source projects built by Vietnamese
 
     🐦 A personal music streaming server that works.
     ![Stars](https://img.shields.io/github/stars/koel/koel?style=flat-square)
+
+<a name="Python"></a>
+### Python
+
+- [lazynlp](https://github.com/chiphuyen/lazynlp) - [Chip Huyen](https://github.com/chiphuyen)
+
+    Library to scrape and clean web pages to create massive datasets.
+    ![Stars](https://img.shields.io/github/stars/chiphuyen/lazynlp.svg?style=flat-square)
+
+- [sotawhat](https://github.com/chiphuyen/sotawhat) - [Chip Huyen](https://github.com/chiphuyen)
+
+    Returns latest research results by crawling arxiv papers and summarizing abstracts. Helps you stay afloat with so many new papers everyday.
+    ![Stars](https://img.shields.io/github/stars/chiphuyen/sotawhat.svg?style=flat-square)
+
+- [stanford-tensorflow-tutorials](https://github.com/chiphuyen/stanford-tensorflow-tutorials) - [Chip Huyen](https://github.com/chiphuyen)
+
+    This repository contains code examples for the Stanford's course: TensorFlow for Deep Learning Research.
+    ![Stars](https://img.shields.io/github/stars/chiphuyen/stanford-tensorflow-tutorials.svg?style=flat-square)
 
 <a name="ruby"></a>
 ### Ruby
