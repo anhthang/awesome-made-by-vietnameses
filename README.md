@@ -1,5 +1,5 @@
 # 🇻🇳 Awesome made by Vietnameses [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![By Vietnamese](https://raw.githubusercontent.com/webuild-community/badge/master/svg/by.svg)](https://webuild.community)
-[![From Vietnam with <3](https://raw.githubusercontent.com/webuild-community/badge/master/svg/love.svg)](https://webuild.community)
+[![From Vietnam with <3](https://raw.githubusercontent.com/webuild-community/badge/master/svg/love.svg)](https://webuild.community) [![GitHub contributors](https://img.shields.io/github/contributors/anhthang/awesome-made-by-vietnameses.svg)](https://github.com/anhthang/awesome-made-by-vietnameses/graphs/contributors)
 
 
 A collection of amazing applications or open source projects built by Vietnamese developers
@@ -180,6 +180,11 @@ A collection of amazing applications or open source projects built by Vietnamese
 
     Browser extension (Chrome, Firefox, Edge, Opera, Safari) that improves GitHub code review and exploration.
     ![Stars](https://img.shields.io/github/stars/ovity/octotree.svg?style=flat-square)
+
+- [Spicetify](https://github.com/khanhas/spicetify-cli) - [khanhas](https://github.com/khanhas)
+
+    Commandline tool to customize Spotify client. Supports Windows, MacOS and Linux.
+    ![Stars](https://img.shields.io/github/stars/khanhas/spicetify-cli.svg?style=flat-square)
 
 <a name="jupyter"></a>
 ### Jupyter Notebook
