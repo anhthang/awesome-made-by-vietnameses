@@ -76,6 +76,15 @@ export default {
             {"full_name": "tuanpmt/esp_mqtt"}
         ]
     },
+    "Dart": {
+        "projects": [
+            {"full_name": "hnvn/flutter_flip_panel"},
+            {"full_name": "duytq94/flutter-fb-reactions-animation"},
+            {"full_name": "hnvn/flutter_shimmer"},
+            {"full_name": "hnvn/flutter_image_cropper"},
+            {"full_name": "scitbiz/flutter_pokedex"},
+        ]
+    },
     "Go": {
         "projects": [
             {"full_name": "giongto35/cloud-game"}
@@ -123,7 +132,8 @@ export default {
         "projects": [
             {"full_name": "chiphuyen/lazynlp"},
             {"full_name": "chiphuyen/sotawhat"},
-            {"full_name": "chiphuyen/stanford-tensorflow-tutorials"}
+            {"full_name": "chiphuyen/stanford-tensorflow-tutorials"},
+            {"full_name": "undertheseanlp/underthesea"},
         ]
     },
     "Ruby": {
@@ -148,9 +158,10 @@ export default {
     },
     "Others": {
         "projects": [
+            {"full_name": "binhnguyennus/awesome-scalability"},
             {"full_name": "hoanhan101/ultimate-go"},
             {"full_name": "bigdargon/hostsVN"},
-            {"full_name": "phanan/htaccess"}
+            {"full_name": "phanan/htaccess"},
         ]
     }
 }
