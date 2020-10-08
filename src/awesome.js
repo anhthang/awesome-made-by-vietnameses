@@ -42,6 +42,15 @@ export default {
     "Applications": {
         "projects": [
             {
+                "external": true,
+                "name": "dbdiagram.io",
+                "owner": {
+                    "name": "Holistics"
+                },
+                "html_url": "https://dbdiagram.io",
+                "description": "A free, simple tool to draw ER diagrams by just writing code. Designed for developers and data analysts."
+            },
+            {
                 "full_name": "onmyway133/DeepDiff"
             },
             {
@@ -95,6 +104,8 @@ export default {
             {"full_name": "tuandm/laravue"},
             {"full_name": "buunguyen/mongoose-deep-populate"},
             {"full_name": "ovity/octotree"},
+            {"full_name": "evolus/pencil"},
+            {"full_name": "huytd/pomoday-v2"},
             {"full_name": "khanhas/spicetify-cli"}
         ]
     },
@@ -120,6 +131,11 @@ export default {
             {"full_name": "nguyenquangminh0711/ruby_jard"}
         ]
     },
+    "Rust": {
+        "projects": [
+            {"full_name": "huytd/kanban-app"}
+        ]
+    },
     "Shell": {
         "projects": [
             {"full_name": "icy/pacapt"}
@@ -132,6 +148,7 @@ export default {
     },
     "Others": {
         "projects": [
+            {"full_name": "hoanhan101/ultimate-go"},
             {"full_name": "bigdargon/hostsVN"},
             {"full_name": "phanan/htaccess"}
         ]
