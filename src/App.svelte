@@ -8,13 +8,19 @@
 	export let name;
 
 	let colors = [];
+	let contributors = [];
 
 	onMount(async () => {
-		const res = await fetch(`https://raw.githubusercontent.com/ozh/github-colors/master/colors.json`);
-		colors = await res.json();
+		colors = await fetch(`https://raw.githubusercontent.com/ozh/github-colors/master/colors.json`)
+			.then(res => res.json());
+
+		contributors = await fetch('https://api.github.com/repos/anhthang/awesome-made-by-vietnameses/contributors')
+			.then(res => res.json());
 	});
 
 	const categories = Object.keys(awesome)
+
+	let active;
 </script>
 
 <main>
@@ -22,17 +28,31 @@
 
 	<h1>{name}</h1>
 
-	<div class="categories">
+	<div class="page-content">
 		<p>
 			It's hard to calculate project popularity so we use stars as a measurement. It's not quite fair, but it is what we have here on Github.
 		</p>
+
+		<!-- {#each categories as category}
+			<button class:active={active === category} on:click="{() => active = category}" style="color: {colors[category]?.color}">
+				{category}
+			</button>
+		{/each} -->
+
 		{#each categories as category}
-			<span style="color: {colors[category]?.color}">{category}</span>
+			<h3 style="color: {colors[category]?.color}">{category}</h3>
 			<div class="repos">
 				{#each awesome[category].projects as project}
 					<Repo project={project} colors={colors} />
 				{/each}
 			</div>
+		{/each}
+
+		<h2>Contributors</h2>
+		{#each contributors as contributor}
+			<a href={contributor.html_url} target="_blank">
+				<img width="64" height="64" src={contributor.avatar_url || contributor.gravatar_id} alt={contributor.login} />
+			</a>
 		{/each}
 	</div>
 </main>
@@ -41,21 +61,19 @@
 	main {
 		text-align: center;
 		padding: 1em;
-		/* max-width: 240px; */
 		margin: 0 auto;
 	}
 
 	h1 {
 		color: #ff3e00;
-		/* text-transform: uppercase; */
-		font-size: 3em;
-		font-weight: 100;
 	}
 
-	.categories span {
+	h2 {
 		color: #ff3e00;
-		/* font-weight: 300; */
-		font-size: 1.5em;
+	}
+
+	h3 {
+		color: #ff3e00;
 	}
 
 	.repos {
@@ -66,6 +84,12 @@
 
 		margin-top: 16px;
 		margin-bottom: 16px;
+	}
+
+	button {
+		margin: 8px;
+		border: none;
+		cursor: pointer;
 	}
 
 	@media (min-width: 640px) {
@@ -81,7 +105,7 @@
 	}
 
 	@media (min-width: 1200px) {
-		.categories {
+		.page-content {
 			width: 70%;
 			margin-left: 15%;
 		}

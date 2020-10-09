@@ -106,6 +106,7 @@ export default {
     },
     "JavaScript": {
         "projects": [
+            {"full_name": "huytd/agar.io-clone"},
             {"full_name": "phuoc-ng/1loc"},
             {"full_name": "tuananh/camaro"},
             {"full_name": "holistics/dbml"},
