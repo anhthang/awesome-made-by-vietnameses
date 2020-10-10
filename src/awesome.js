@@ -53,6 +53,15 @@ export default {
             {
                 "full_name": "onmyway133/DeepDiff"
             },
+            // {
+            //     "external": true,
+            //     "name": "Got It AI",
+            //     "owner": {
+            //         "name": "Got It"
+            //     },
+            //     "html_url": "https://www.got-it.ai/",
+            //     "description": "A Paradigm Shift in Conversation AI Platforms. Self-Discovery, Self-Training, Self-Optimization."
+            // },
             {
                 "full_name": "onmyway133/IconGenerator"
             },
@@ -87,7 +96,9 @@ export default {
     },
     "Go": {
         "projects": [
-            {"full_name": "giongto35/cloud-game"}
+            {"full_name": "giongto35/cloud-game"},
+            {"full_name": "pipe-cd/pipe"},
+            {"full_name": "nghialv/promviz"},
         ]
     },
     "HTML": {
@@ -132,6 +143,7 @@ export default {
     "Python": {
         "projects": [
             {"full_name": "chiphuyen/lazynlp"},
+            {"full_name": "lebinh/ngxtop"},
             {"full_name": "chiphuyen/sotawhat"},
             {"full_name": "chiphuyen/stanford-tensorflow-tutorials"},
             {"full_name": "undertheseanlp/underthesea"},
@@ -154,15 +166,22 @@ export default {
     },
     "Swift": {
         "projects": [
-            {"full_name": "itsmeichigo/DateTimePicker"}
+            {"full_name": "itsmeichigo/DateTimePicker"},
+            {"full_name": "nghialv/Hakuba"},
+            {"full_name": "nghialv/MaterialKit"},
+        ]
+    },
+    "Vim script": {
+        "projects": [
+            {"full_name": "ctrlpvim/ctrlp.vim"}
         ]
     },
     "Others": {
         "projects": [
             {"full_name": "binhnguyennus/awesome-scalability"},
-            {"full_name": "hoanhan101/ultimate-go"},
             {"full_name": "bigdargon/hostsVN"},
             {"full_name": "phanan/htaccess"},
+            {"full_name": "hoanhan101/ultimate-go"},
         ]
     }
 }

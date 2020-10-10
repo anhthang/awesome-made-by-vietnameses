@@ -28,33 +28,31 @@
 
 	<h1>{name}</h1>
 
-	<div class="page-content">
-		<p>
-			It's hard to calculate project popularity so we use stars as a measurement. It's not quite fair, but it is what we have here on Github.
-		</p>
+	<p>
+		It's hard to calculate project popularity so we use stars as a measurement. It's not quite fair, but it is what we have here on Github.
+	</p>
 
-		<!-- {#each categories as category}
-			<button class:active={active === category} on:click="{() => active = category}" style="color: {colors[category]?.color}">
-				{category}
-			</button>
-		{/each} -->
+	<!-- {#each categories as category}
+		<button class:active={active === category} on:click="{() => active = category}" style="color: {colors[category]?.color}">
+			{category}
+		</button>
+	{/each} -->
 
-		{#each categories as category}
-			<h3 style="color: {colors[category]?.color}">{category}</h3>
-			<div class="repos">
-				{#each awesome[category].projects as project}
-					<Repo project={project} colors={colors} />
-				{/each}
-			</div>
-		{/each}
+	{#each categories as category}
+		<h3 style="color: {colors[category]?.color}">{category}</h3>
+		<div class="repos">
+			{#each awesome[category].projects as project}
+				<Repo project={project} colors={colors} />
+			{/each}
+		</div>
+	{/each}
 
-		<h2>Contributors</h2>
-		{#each contributors as contributor}
-			<a href={contributor.html_url} target="_blank">
-				<img width="64" height="64" src={contributor.avatar_url || contributor.gravatar_id} alt={contributor.login} />
-			</a>
-		{/each}
-	</div>
+	<h2>Contributors</h2>
+	{#each contributors as contributor}
+		<a href={contributor.html_url} target="_blank">
+			<img width="64" height="64" src={contributor.avatar_url || contributor.gravatar_id} alt={contributor.login} />
+		</a>
+	{/each}
 </main>
 
 <style>
@@ -86,11 +84,11 @@
 		margin-bottom: 16px;
 	}
 
-	button {
+	/* button {
 		margin: 8px;
 		border: none;
 		cursor: pointer;
-	}
+	} */
 
 	@media (min-width: 640px) {
 		main {
@@ -105,9 +103,9 @@
 	}
 
 	@media (min-width: 1200px) {
-		.page-content {
-			width: 70%;
-			margin-left: 15%;
+		main {
+			width: 80%;
+			margin-left: 10%;
 		}
 
 		.repos {
