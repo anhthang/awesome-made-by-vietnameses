@@ -82,7 +82,13 @@ export default {
     "C": {
         "projects": [
             {"full_name": "aquynh/capstone"},
-            {"full_name": "tuanpmt/esp_mqtt"}
+            {"full_name": "tuanpmt/esp_mqtt"},
+            {"full_name": "unicorn-engine/unicorn"},
+        ]
+    },
+    "C++": {
+        "projects": [
+            {"full_name": "keystone-engine/keystone"},
         ]
     },
     "Dart": {

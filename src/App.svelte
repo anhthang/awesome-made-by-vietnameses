@@ -11,7 +11,7 @@
 	let contributors = [];
 
 	onMount(async () => {
-		colors = await fetch(`https://raw.githubusercontent.com/ozh/github-colors/master/colors.json`)
+		colors = await fetch('https://raw.githubusercontent.com/ozh/github-colors/master/colors.json')
 			.then(res => res.json());
 
 		contributors = await fetch('https://api.github.com/repos/anhthang/awesome-made-by-vietnameses/contributors')
@@ -19,8 +19,6 @@
 	});
 
 	const categories = Object.keys(awesome)
-
-	let active;
 </script>
 
 <main>
@@ -42,7 +40,7 @@
 		<h3 style="color: {colors[category]?.color}">{category}</h3>
 		<div class="repos">
 			{#each awesome[category].projects as project}
-				<Repo project={project} colors={colors} />
+				<Repo {project} {colors} />
 			{/each}
 		</div>
 	{/each}
@@ -50,7 +48,7 @@
 	<h2>Contributors</h2>
 	{#each contributors as contributor}
 		<a href={contributor.html_url} target="_blank">
-			<img width="64" height="64" src={contributor.avatar_url || contributor.gravatar_id} alt={contributor.login} />
+			<img width="64" height="64" style="border-radius: 100%" src={contributor.avatar_url || contributor.gravatar_id} alt={contributor.login} />
 		</a>
 	{/each}
 </main>

@@ -77,6 +77,7 @@
         padding: 16px;
         font-size: 16px;
         line-height: 1.5;
+        text-align: initial;
     }
 
     .archived {
