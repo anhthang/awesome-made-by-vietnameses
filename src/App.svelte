@@ -60,18 +60,6 @@
 		margin: 0 auto;
 	}
 
-	h1 {
-		color: #ff3e00;
-	}
-
-	h2 {
-		color: #ff3e00;
-	}
-
-	h3 {
-		color: #ff3e00;
-	}
-
 	.repos {
 		width: 100%;
 		display: grid;

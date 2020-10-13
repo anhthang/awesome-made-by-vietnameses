@@ -6,7 +6,7 @@ A collection of amazing applications or open source projects built by Vietnamese
 
 [Homepage](https://awesome-vietnamese.anhthang.org)
 
-![preview](screenshot.png)
+![preview](public/screenshot.png)
 
 ## 🏗 Contributing
 

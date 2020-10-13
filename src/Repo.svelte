@@ -43,14 +43,14 @@
         {/if}
     </div>
     {#if project.fork}
-        <div style="display: block; font-size: 12px; color: #586069;">
+        <div style="display: block; font-size: 12px;">
             forked from <a style="color: #0366d6" href={project.source.html_url} target="_blank">{project.source.full_name}</a>
         </div>
     {/if}
-    <div style="font-size: 14px; margin-bottom: 16px; margin-top: 8px; color: #586069;">{project.description}</div>
+    <div style="font-size: 14px; margin-bottom: 16px; margin-top: 8px;">{project.description}</div>
 
     {#if !project.external}
-        <div style="font-size: 14px; color: #586069; display: flex;">
+        <div style="font-size: 14px; display: flex;">
             {#if project.language}
                 <div style="margin-right: 16px;">
                     <span style="width: 12px; height: 12px; border-radius: 100%; background-color: { project.language ? colors[project.language]?.color : 'gray' }; display: inline-block; top: 1px; position: relative;"></span>
@@ -73,7 +73,6 @@
     .repo-card {
         border: 1px solid #e1e4e8;
         border-radius: 6px;
-        background: white;
         padding: 16px;
         font-size: 16px;
         line-height: 1.5;
@@ -88,12 +87,13 @@
         border: 1px solid #e1e4e8;
     }
 
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-
     svg {
         fill: #586069;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        svg {
+            fill: #b2b9bf;
+        }
     }
 </style>
