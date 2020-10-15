@@ -19,6 +19,9 @@
 	});
 
 	const categories = Object.keys(awesome)
+
+	let active;
+	let filteredCategories = categories;
 </script>
 
 <main>
@@ -30,13 +33,16 @@
 		It's hard to calculate project popularity so we use stars as a measurement. It's not quite fair, but it is what we have here on Github.
 	</p>
 
-	<!-- {#each categories as category}
-		<button class:active={active === category} on:click="{() => active = category}" style="color: {colors[category]?.color}">
-			{category}
-		</button>
-	{/each} -->
+	<div class="categories">
+		<button class:active={!active} on:click={() => { active = undefined; filteredCategories = categories }}>All</button>
+		{#each categories as category}
+			<button class:active={active === category} on:click="{() => { active = category; filteredCategories = categories.filter(c => c === category); }}" style="color: {colors[category]?.color}">
+				{category}
+			</button>
+		{/each}
+	</div>
 
-	{#each categories as category}
+	{#each filteredCategories as category}
 		<h3 style="color: {colors[category]?.color}">{category}</h3>
 		<div class="repos">
 			{#each awesome[category].projects as project}
@@ -70,11 +76,27 @@
 		margin-bottom: 16px;
 	}
 
-	/* button {
+	.categories {
+		width: 75%;
+		display: inline-block;
+	}
+
+	button {
 		margin: 8px;
 		border: none;
 		cursor: pointer;
-	} */
+		background-color: transparent;
+	}
+
+	button.active {
+		background-color: #f4f4f4;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		button.active {
+			background-color: #141d23;
+		}
+	}
 
 	@media (min-width: 640px) {
 		main {

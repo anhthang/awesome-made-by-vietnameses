@@ -3,22 +3,30 @@
     export let project;
     export let colors;
 
+    let mounted = false;
+
     function kFormatter(num) {
-        return Math.abs(num) > 999 ? Math.sign(num)*((Math.abs(num)/1000).toFixed(1)) + 'k' : Math.sign(num)*Math.abs(num)
+        return Math.abs(num) > 999 ? Math.sign(num)*((Math.abs(num)/1000).toFixed(1)) + 'k' : Math.sign(num)*Math.abs(num);
     }
 
-    onMount(async () => {
-        if (project.full_name) {
-            const storage = sessionStorage.getItem(project.full_name)
-            if (!storage) {
-                const res = await fetch(`https://api.github.com/repos/${project.full_name}`);
-                project = await res.json();
-    
-                sessionStorage.setItem(project.full_name, JSON.stringify(project))
-            } else {
-                project = JSON.parse(storage)
-            }
+    async function getProject({ full_name }) {
+        const storage = sessionStorage.getItem(full_name);
+        if (!storage) {
+            const res = await fetch(`https://api.github.com/repos/${full_name}`);
+            project = await res.json();
+
+            sessionStorage.setItem(full_name, JSON.stringify(project));
+        } else {
+            project = JSON.parse(storage);
         }
+    }
+
+    $: {
+        if (mounted && project.full_name) getProject(project);
+    }
+
+    onMount(() => {
+        mounted = true
     });
 </script>
 
