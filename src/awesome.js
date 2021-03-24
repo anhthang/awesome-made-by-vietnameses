@@ -103,6 +103,7 @@ export default {
     "Go": {
         "projects": [
             {"full_name": "giongto35/cloud-game"},
+            {"full_name": "giongto35/cloud-morph"},
             {"full_name": "pipe-cd/pipe"},
             {"full_name": "nghialv/promviz"},
         ]
