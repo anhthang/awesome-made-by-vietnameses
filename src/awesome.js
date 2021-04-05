@@ -79,6 +79,13 @@ export default {
             },
         ]
     },
+    "Angular": {
+        "projects": [
+            {"full_name": "trungk18/angular-spotify" },
+            {"full_name": "trungk18/angular-tetris" },
+            {"full_name": "trungk18/jira-clone-angular" },
+        ]
+    },
     "C": {
         "projects": [
             {"full_name": "aquynh/capstone"},
@@ -185,6 +192,7 @@ export default {
     },
     "Others": {
         "projects": [
+            {"full_name": "angular-vietnam/100-days-of-angular"},
             {"full_name": "binhnguyennus/awesome-scalability"},
             {"full_name": "bigdargon/hostsVN"},
             {"full_name": "phanan/htaccess"},
