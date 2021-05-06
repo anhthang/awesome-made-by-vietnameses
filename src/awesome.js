@@ -75,6 +75,9 @@ export default {
                 "full_name": "onmyway133/PushNotifications"
             },
             {
+                "full_name": "simple-login/app"
+            },
+            {
                 "full_name": "TablePlus/TablePlus"
             },
         ]
