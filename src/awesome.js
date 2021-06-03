@@ -199,6 +199,7 @@ export default {
             {"full_name": "binhnguyennus/awesome-scalability"},
             {"full_name": "bigdargon/hostsVN"},
             {"full_name": "phanan/htaccess"},
+            {"full_name": "sonph/onehalf"},
             {"full_name": "hoanhan101/ultimate-go"},
         ]
     }
