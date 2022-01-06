@@ -107,7 +107,7 @@ export default {
             {"full_name": "duytq94/flutter-fb-reactions-animation"},
             {"full_name": "hnvn/flutter_shimmer"},
             {"full_name": "hnvn/flutter_image_cropper"},
-            {"full_name": "scitbiz/flutter_pokedex"},
+            {"full_name": "hungps/flutter_pokedex"},
         ]
     },
     "Go": {
