@@ -144,7 +144,8 @@ export default {
             {"full_name": "ovity/octotree"},
             {"full_name": "evolus/pencil"},
             {"full_name": "huytd/pomoday-v2"},
-            {"full_name": "khanhas/spicetify-cli"}
+            {"full_name": "khanhas/spicetify-cli"},
+            {"full_name": "thien-do/typed.tw"}
         ]
     },
     "Jupyter Notebook": {
