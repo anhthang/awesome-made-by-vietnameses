@@ -139,6 +139,7 @@ export default {
             {"full_name": "tuananh/camaro"},
             {"full_name": "holistics/dbml"},
             {"full_name": "formvalidation/formvalidation"},
+            {"full_name": "nvh95/jest-preview"},
             {"full_name": "tuandm/laravue"},
             {"full_name": "buunguyen/mongoose-deep-populate"},
             {"full_name": "ovity/octotree"},
