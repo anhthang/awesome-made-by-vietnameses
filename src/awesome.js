@@ -80,6 +80,15 @@ export default {
             {
                 "full_name": "TablePlus/TablePlus"
             },
+            {
+                "external": true,
+                "name": "Wondika",
+                "owner": {
+                    "name": "Hau Vo"
+                },
+                "html_url": "https://wondika.com",
+                "description": "AI-generated math story adventures for kids ages 6–11 (K–5), with English and Vietnamese voice narration. iOS, Android, web."
+            },
         ]
     },
     "Angular": {
